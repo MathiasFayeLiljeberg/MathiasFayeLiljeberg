@@ -1,14 +1,14 @@
 <a href="https://www.linkedin.com/in/mathiasliljeberg/">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark-d.svg">
-  <img alt="Mathias Liljeberg – Projektleder · Shopify, e-commerce & teknisk rådgivning. Tidl. ShopHelten – ledig fra februar 2027. Connect på LinkedIn." src="assets/banner-light-d.svg" width="100%">
+  <img alt="Mathias Liljeberg – Projektleder · Shopify, e-commerce & teknisk rådgivning. Tidl. ShopHelten – åben for nye muligheder. Connect på LinkedIn." src="assets/banner-light-d.svg" width="100%">
 </picture>
 
 </a>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/about-dark-d.svg">
-  <img alt="Om mig: Projektleder med fokus på Shopify og e-commerce. Fra 2021 til 2026 hos ShopHelten, et Shopify Premier-bureau, hvor jeg hjalp brands med at få mere ud af deres webshop. Ledig fra februar 2027." src="assets/about-light-d.svg" width="100%">
+  <img alt="Om mig: Projektleder med fokus på Shopify og e-commerce. Siden 2021 hos ShopHelten, et Shopify Premier-bureau, hvor jeg har hjulpet brands med at få mere ud af deres webshop. Nu åben for nye muligheder." src="assets/about-light-d.svg" width="100%">
 </picture>
 
 <picture>
@@ -23,7 +23,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/experience-dark-d.svg">
-  <img alt="Erfaring: Projektleder @ ShopHelten (2021–2026), Account Manager @ Twentyfour (2020–2021), Butikschef @ Solid (2017–2018), Salg @ Solid (2014–2020)" src="assets/experience-light-d.svg" width="100%">
+  <img alt="Erfaring: Projektleder @ ShopHelten (2021–2027), Account Manager @ Twentyfour (2020–2021), Butikschef @ Solid (2017–2018), Salg @ Solid (2014–2020)" src="assets/experience-light-d.svg" width="100%">
 </picture>
 
 <picture>
@@ -34,6 +34,6 @@
 <a href="https://www.linkedin.com/in/mathiasliljeberg/">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/approach-dark-d.svg">
-  <img alt="Min tilgang: 01 Forstå, 02 Oversæt, 03 Implementér. Leder I efter en Shopify-projektleder? Jeg er ledig fra februar 2027 – skriv til mig på LinkedIn." src="assets/approach-light-d.svg" width="100%">
+  <img alt="Min tilgang: 01 Forstå, 02 Oversæt, 03 Implementér. Leder I efter en Shopify-projektleder? Jeg er ledig – skriv til mig på LinkedIn." src="assets/approach-light-d.svg" width="100%">
 </picture>
 </a>
