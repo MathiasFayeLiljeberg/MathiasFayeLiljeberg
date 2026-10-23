@@ -58,7 +58,7 @@ def banner(p):
     b = f'''<rect x="{X}" y="56" width="40" height="4" rx="2" fill="{ACC}"/>
 <text x="{X}" y="118" font-size="52" font-weight="700" letter-spacing="-1" fill="{p['fg']}">Mathias Liljeberg</text>
 <text x="{X}" y="160" font-size="23" fill="{p['mut']}">Projektleder · Shopify, e-commerce &amp; teknisk rådgivning</text>
-<text x="{X}" y="194" font-size="19" fill="{p['mut']}"><tspan fill="{ACC}" font-weight="600">ShopHelten</tspan>  —  Shopify Premier-bureau  ·  til jan. 2027  ·  København</text>
+<text x="{X}" y="194" font-size="19" fill="{p['mut']}">Tidl. <tspan fill="{ACC}" font-weight="600">ShopHelten</tspan>  ·  <tspan fill="{ACC}" font-weight="600">Åben for nye muligheder</tspan>  ·  København</text>
 {chips(p,X,224,["Shopify Plus","Løsningsdesign","CRO & UX","AI-agents"],fs=16,h=36)}
 <g class="ring" fill="none" stroke="{ACC}"><circle cx="840" cy="118" r="84" stroke-opacity=".2" stroke-width="1.5" stroke-dasharray="4 10"/><circle cx="840" cy="118" r="60" stroke-opacity=".38" stroke-width="1.5"/></g>
 <g transform="translate(840 118)" fill="none" stroke="{ACC}" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"><path d="M-25 -12 H25 L21 31 H-21 Z" fill="{ACC}" fill-opacity=".12"/><path d="M-12 -12 V-20 A12 12 0 0 1 12 -20 V-12"/></g>
@@ -67,10 +67,10 @@ def banner(p):
     return frame(p, 300, b, dots=True, extra_style=st)
 
 def about(p):
-    txt = ("Jeg er projektleder hos ShopHelten, et Shopify Premier-bureau, frem til 31. januar 2027. Her hjælper jeg brands med at få mere ud af deres webshop – "
+    txt = ("Jeg er projektleder med fokus på Shopify og e-commerce. Fra 2021 til 2026 var jeg hos ShopHelten, et Shopify Premier-bureau, hvor jeg hjalp brands med at få mere ud af deres webshop – "
            "både forretningsmæssigt og teknisk. Jeg står midt imellem kunden, udvikleren og eksterne partnere: jeg afklarer behovet, "
            "skitserer en løsning og følger den hele vejen til noget, der virker i praksis. "
-           "AI-agents og agent-workflows er en fast del af værktøjskassen – til research, QA, analyse og dokumentation.")
+           "AI-agents og agent-workflows er en fast del af værktøjskassen – til research, QA, analyse og dokumentation. Nu er jeg klar til næste kapitel – og åben for nye muligheder.")
     lines = wrap(txt, BODY, IW)
     def hl(l):
         l = esc(l)
@@ -119,7 +119,7 @@ def focus(p):
     return frame(p, 88+2*ch+16+48, out)
 
 def experience(p):
-    rows = [("3f9a2c1","HEAD -> main","Projektleder @ ShopHelten","Shopify Premier-bureau · teknisk rådgivning & løsningsdesign","2021 – jan. 2027"),
+    rows = [("3f9a2c1","HEAD -> main","Projektleder @ ShopHelten","Shopify Premier-bureau · teknisk rådgivning & løsningsdesign","2021 – 2026"),
             ("b71e0d4",None,"Account Manager @ Twentyfour","Digitalt bureau (tidl. HTML24) · web- og e-commerce-projekter","2020 – 2021"),
             ("9c4d8e2",None,"Butikschef @ Solid","Ledelse af butik, team og drift","2017 – 2018"),
             ("1a2b3c4",None,"Salg @ Solid","Hvor det hele startede: kunder, salg og service","2014 – 2020")]
@@ -198,7 +198,7 @@ def quote(p):
             out += f'<path d="M{ax-6:.1f} {y+ch/2-9} l8 9 l-8 9" fill="none" stroke="{ACC}" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>'
     cy = y + ch + 36
     out += f'<line x1="{X}" y1="{cy}" x2="{W-X}" y2="{cy}" stroke="{p["bd"]}"/>'
-    out += f'<text x="{X}" y="{cy+44}" font-size="18" fill="{p["fg"]}">Har du en Shopify-shop, der skal løftes?</text>'
+    out += f'<text x="{X}" y="{cy+44}" font-size="18" fill="{p["fg"]}">Leder I efter en Shopify-projektleder? Jeg er ledig.</text>'
     out += f'<text x="{W-X}" y="{cy+44}" text-anchor="end" font-size="17" font-weight="700" fill="{ACC}">Skriv til mig på LinkedIn  →</text>'
     return frame(p, cy+80, out, dots=True)
 
